@@ -12,7 +12,7 @@ if(empty($listPageStyle)) $listPageStyle = '';
 <!doctype html>
 <html lang="en">
 <head>
-    <title>EVOTE MOVIE - <?= $pageName ?> page</title>
+    <title>EVOTE MOVIE - <?= $pageTitle ?> page</title>
     <meta charset="utf-8">
     <style>
         @import "/css/basic.css";

@@ -34,11 +34,11 @@ The project has been refactored as follows:
 
         - for each  function, that sets the corresponding link style variabled to `current_page`:
         
-                ```php
-                    function homeAction()
-                    {
-                        $pageTitle = 'home';
-                        $homePageStyle = "current_page";
-                        require_once __DIR__ . '/../templates/homepage.php';
-                    }
-                ```
+            ```php
+                function homeAction()
+                {
+                    $pageTitle = 'home';
+                    $homePageStyle = "current_page";
+                    require_once __DIR__ . '/../templates/homepage.php';
+                }
+            ```

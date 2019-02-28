@@ -32,13 +32,13 @@ The project has been refactored as follows:
 
 - create new folder `/src`
 
-        - for each  function, that sets the corresponding link style variabled to `current_page`:
-        
-            ```php
-                function homeAction()
-                {
-                    $pageTitle = 'home';
-                    $homePageStyle = "current_page";
-                    require_once __DIR__ . '/../templates/homepage.php';
-                }
-            ```
+    - for each  function, that sets the corresponding link style variabled to `current_page`:
+    
+        ```php
+            function homeAction()
+            {
+                $pageTitle = 'home';
+                $homePageStyle = "current_page";
+                require_once __DIR__ . '/../templates/homepage.php';
+            }
+        ```
